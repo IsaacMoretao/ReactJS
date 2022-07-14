@@ -1,0 +1,16 @@
+.Cards{
+  display: flex;
+  justify-content: space-between;
+  width: 226px;
+
+  padding: 10px;
+  background: #c9c9c95d;
+  border-radius: 5px;
+  
+  border: 1px solid white;
+  box-shadow: 3px 3px 3px #02020267;
+
+  small{
+    color: #797979;
+  }
+}

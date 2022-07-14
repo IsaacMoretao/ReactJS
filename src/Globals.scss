@@ -1,0 +1,88 @@
+*{
+  padding: 0%;
+  padding: 0%;
+  font-size: 15px;
+
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;;
+
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  padding: 0%;
+
+  align-items: center;
+  flex-direction: column;
+  background: url('./Assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg') no-repeat center center;
+  background-size: cover;
+  
+  .Container{
+    background: #6e1eb9;
+    padding: 30px;
+    gap: 10px;
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #02020267;
+    
+
+    header{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      strong{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 700;
+      }
+      div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        img{
+        height: 50px;
+        border-radius: 1000px;
+        border: 2px solid #b1b1b1;
+        }
+      }
+      
+    }
+
+   
+
+    input{
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 3px 3px 3px #02020267;
+      border: none;
+
+    }
+    button{
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+
+      box-shadow: 3px 3px 3px #02020267;
+      background: #00f300;
+      transition: 0.5s;
+      cursor: pointer;
+
+    }
+    button:hover {
+      background: #009600;
+    }
+  }
+}
