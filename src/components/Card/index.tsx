@@ -1,6 +1,11 @@
-import './styles.scss'
+import './styles.scss';
 
-export function Card(props)  {
+export type CardProps ={
+  name: string,
+  time: string
+}
+
+export function Card(props: CardProps)  {
   return (
     <div className='Cards'>
       <strong>{props.name}</strong>

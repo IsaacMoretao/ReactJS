@@ -1,12 +1,11 @@
 import './Globals.scss';
-import { Card } from  './components/Card';
+import { Card, CardProps } from  './components/Card';
 import { useEffect, useState } from 'react';
-import { isPropertySignature } from 'typescript';
 
 
 function App() {
   const [studentName, setStudentName] = useState('');
-  const [students, setStudents] = useState([])
+  const [students, setStudents] = useState<CardProps[]>([])
   const [user, setUser] = useState({ name: '', avatar: '' })
 
   function handleAddStudent(){
